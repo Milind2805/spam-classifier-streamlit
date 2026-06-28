@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 
 # Load model and scaler
 with open('spam_model.pkl', 'rb') as f:
